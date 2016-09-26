@@ -1,7 +1,9 @@
-DOORMAN
+Tentacruel
 =======
 
-Doorman is an http proxy that authenticates via OAuth.
+Tentacruel is an http proxy that authenticates via OAuth.
+
+Based on DORMAN PROXY  https://github.com/movableink/doorman
 
 Your organization probably has some internal services that need to be
 password-protected.  You likely also already manage users using an external
