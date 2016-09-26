@@ -1,6 +1,6 @@
 module.exports = {
   // port to listen on
-  port: process.env.BIND_PORT,
+  port: 8080,
 
   // Secure port for HTTPS connections. SSL certificate options MUST be set when enabled.
   // securePort: 443,
