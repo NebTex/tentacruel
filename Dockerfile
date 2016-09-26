@@ -1,12 +1,9 @@
 FROM node
-
+RUN mkdir /dorman
 ADD . /doorman
 
-RUN \
-  cd /doorman && \
-  npm install && \
-  mv conf.environment.js conf.js
-
 WORKDIR /doorman
+
+RUN npm install
 
 ENTRYPOINT [ "npm", "start" ]
