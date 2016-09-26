@@ -1,6 +1,9 @@
 Tentacruel
 =======
 
+<img src="public/_doorman/images/tentacruel.png" width="160" />
+
+
 Tentacruel is an http proxy that authenticates via OAuth.
 
 Based on DORMAN PROXY  https://github.com/movableink/doorman
